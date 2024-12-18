@@ -13,7 +13,7 @@ rust-version = "1.70"
 exclude = ["/.github", "/examples", "/scripts"]
 
 [dependencies]
-rustls = { version = "0.23.15", default-features = false, features = ["std"] }
+rustls = { git = "https://github.com/MatinAniss/spooftls.git", rev = "23bcb0ec3f052557f3d873a82fbaf3b611f16c28", default-features = false, features = ["std"] }
 tokio = "1.0"
 
 [features]

@@ -635,9 +635,8 @@ dependencies = [
 
 [[package]]
 name = "rustls"
-version = "0.23.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5fbb44d7acc4e873d613422379f69f237a1b141928c02f6bc6ccfddddc2d7993"
+version = "0.23.20"
+source = "git+https://github.com/MatinAniss/spooftls.git?rev=23bcb0ec3f052557f3d873a82fbaf3b611f16c28#23bcb0ec3f052557f3d873a82fbaf3b611f16c28"
 dependencies = [
  "aws-lc-rs",
  "log",
